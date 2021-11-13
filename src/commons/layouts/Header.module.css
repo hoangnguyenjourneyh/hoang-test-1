@@ -1,9 +1,15 @@
 
 .headerContainer {
   padding: 20px 66px;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (min-width: 1370px) {
+  .headerContainer {
+    display: flex;
+  }
 }
 
 .logo {
