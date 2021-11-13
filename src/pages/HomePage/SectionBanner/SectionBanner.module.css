@@ -1,0 +1,34 @@
+
+
+.root {
+  background: url('./assets/banner.png'), linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #FFF;
+}
+
+.bannerContent {
+  margin: 0 24px 0 24px;
+
+  @media only screen and (min-width: 1367px) {
+    margin: 0 auto;
+    max-width: calc(1052px + 36px + 36px);
+    width: 100%;
+    padding: 0 36px 0 36px;
+  }
+}
+
+.bannerMainTitle {
+
+}
+
+.bannerSubTitle {
+  margin: 0 0 32px 0;
+  @media only screen and (min-width: 1025px) {
+    margin: 0 0 47px 0;
+  }
+}
